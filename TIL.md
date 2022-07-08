@@ -126,6 +126,18 @@ $ git push origin master
 
 - $ git push origin master
 
+## commit 수정하기
+
+- git commit 쓰고 - i (insert mode) - 수정 - :wq
+
+## clone / pull
+
+- git init 과 git clone [https] 는 한번 만하는 것 / 
+- clone 은 remote 된 상태까지 불러옴 
+- pull은 리모트 설정이 되어있을 때 업데이트사항을 다운로드
+-  git pull명령은 원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에
+
+
 
 
 
