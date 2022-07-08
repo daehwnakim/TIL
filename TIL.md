@@ -137,6 +137,38 @@ $ git push origin master
 - pull은 리모트 설정이 되어있을 때 업데이트사항을 다운로드
 -  git pull명령은 원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에
 
+## gitignore
+
+- gitignore.io 에서 관련 부수파일들을 push하지 않게 하는 것
+
+## Branch
+
+- 가지로 하나 추가 / 평행우주같은 느낌
+
+-  브랜치 목록 확인
+  git branch
+
+  #새 브랜치 생성
+  git branch [branch name]
+
+  #특정 브랜치 삭제
+  git branch -d [branch name]
+  git branch -D [branch name]  # 강제 삭제(병합되지 않은 브랜치도 삭제)
+
+  git switch [branch name]  # 다른 브랜치로 이동
+  git switch -c [branch name]  # 브랜치를 생성함과 동시에 이동
+
+   한 줄로, 모든 브랜치의, 그래프를 포함하여 커밋 목록 출력
+  git log --oneline --all --graph
+
+   브랜치 병합
+  git merge [branch name]
+
+  git switch [branch name] = git checkout [branch name]
+
+
+
+
 
 
 
